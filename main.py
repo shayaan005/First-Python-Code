@@ -44,3 +44,6 @@ print(Invited[1] + ',' + ' you are still invited to the party')
 del Invited[0]
 del Invited[0]
 print(Invited)
+#Finding out the amound of guests attending and inviting them
+amount=len(Invited)
+print('There are going to be', amount, 'guests attending the event.')
